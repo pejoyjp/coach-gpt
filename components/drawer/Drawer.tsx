@@ -32,7 +32,7 @@ const Drawer = (props: Props) => {
       </SheetContent>
     </Sheet>
       
-      
+    
   )
 }
 
