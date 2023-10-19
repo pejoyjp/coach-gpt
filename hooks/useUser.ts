@@ -14,7 +14,7 @@ const useUser = () => {
     });
 
     return () => unsubscribe();
-  }, [user,setUser]);
+  }, []);
 
   return { user, loading };
 };
