@@ -30,9 +30,8 @@ const Navbar = (props: Props) => {
 
         <div className='center-box gap-4'>
             <div className='hidden md:block'>
-              <UserMenu />
+              <UserMenu isMobile={false}/>
             </div>
-            
 
             <div className='md:hidden'>
               <Drawer/>
